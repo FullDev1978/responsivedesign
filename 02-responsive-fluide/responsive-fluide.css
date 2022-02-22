@@ -1,0 +1,58 @@
+#conteneur{
+    border: 2px solid;
+    margin: 0 auto;
+    width: 80%;/*ici on indique une valeur en pourcentage en fonction de la taille de la fenêtre*/
+    max-width: 1200px;
+    font-size: 1.2vw;/*spécifie une mesure en fonction de la taille de la fenêtre*/
+}
+
+header{
+    background: red;
+    height: 15vh;/*vh permet d'avoir des hauteurs en pourcentage en fonction de la taille de la fenêtre*/
+}
+p{margin:0;}
+nav{
+    background: brown;
+    height: 5vh;
+}
+section{
+    background: pink;
+    margin: 2%;
+}
+footer{
+    background:greenyellow;
+    height: 7.5vh;
+}
+.a{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: blue;
+}
+.b{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: red;
+}
+.c{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: yellow;
+}
+.d{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: purple;
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width: 950px) {
+    #conteneur{
+        font-size: 2vw;
+    }
+    
+}
