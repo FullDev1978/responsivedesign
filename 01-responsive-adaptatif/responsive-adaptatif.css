@@ -1,0 +1,22 @@
+*{
+    margin: 1.5px;
+}
+.zone-adaptative{
+    background: orange;
+    color: white;
+    padding: 10px;
+}
+@media (min-width:794px) { /* ici on indique que les ecrans (media) à partir de la largeur minimum de 794px*/
+    .zone-adaptative{/* ici on adapte notre css en fonction de l'affichage souhait*/
+        width: 750px;
+    }
+}@media (min-width:992px) { /* ici on indique que les ecrans (media) avec une largeur minimum de 794px*/
+    .zone-adaptative{
+        width: 980px;
+    }
+}
+@media (min-width:1200px) { /* ici on indique que les ecrans (media) avec une largeur minimum de 794px*/
+    .zone-adaptative{
+        width: 1170px;
+    }
+}
