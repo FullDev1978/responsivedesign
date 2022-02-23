@@ -1,0 +1,12 @@
+body{
+    background:red;
+}
+#zone{
+    border: 2px solid;
+    width: 1000px;
+    height: 800px;
+
+}
+#zone p{
+    font-size: 15px;
+}

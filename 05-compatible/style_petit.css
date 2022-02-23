@@ -1,0 +1,12 @@
+body{
+    background: aqua;
+}
+#zone{
+    border: 2px solid;
+    width: 500px;
+    height: 300px;
+
+}
+#zone p{
+    font-size: 30px;
+}
