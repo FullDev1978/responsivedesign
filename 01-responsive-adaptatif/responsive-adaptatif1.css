@@ -55,7 +55,7 @@ footer{
     .a, .b, .c, .d{width: 355px;}
 }
 
-@media screen and (max-width: 780px;) {
+@media screen and (max-width: 780px) {
     #conteneur { width: 550px;}/*ici si nous inspectons nous avons notre conteneur qui 554px car dans notre css nous avons déclaré un border: 2px solid*/
     .a, .b, .c, .d{width: 255px;}/*ici nous avons déclarer un margin de 20px de chaque côtés donc 20*2=40px et 550-40px=510px/2=255px pour nos divs*/
 
